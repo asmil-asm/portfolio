@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+
+body {
+  @apply bg-white text-slate-900 dark:bg-slate-950 dark:text-slate-100 transition-colors duration-300;
+  font-family: 'Poppins', 'Cairo', sans-serif;
+}
+
+[dir='rtl'] body { font-family: 'Cairo', 'Poppins', sans-serif; }
+
+.gradient-text {
+  background: linear-gradient(90deg, #6366f1, #ec4899, #06b6d4);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gradient 8s ease infinite;
+}
+
+.glass {
+  @apply bg-white/70 dark:bg-slate-900/60 backdrop-blur-lg border border-slate-200/60 dark:border-slate-700/60;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full font-semibold text-white
+         bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500
+         shadow-lg shadow-indigo-500/30 hover:shadow-pink-500/40
+         transition-all duration-300 hover:-translate-y-0.5;
+}
+
+.btn-ghost {
+  @apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full font-semibold
+         border border-slate-300 dark:border-slate-700
+         hover:bg-slate-100 dark:hover:bg-slate-800 transition;
+}
+
+.blob {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(80px);
+  opacity: 0.5;
+  pointer-events: none;
+}
+@layer utilities {
+  ::-webkit-scrollbar {
+    width: 10px; 
+    height: 10px; 
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f5f9; 
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-indigo-500 border-2 border-slate-200 dark:border-slate-700 rounded-lg transition-colors duration-300;
+   
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+   @apply bg-pink-500
+ }
+}
