@@ -102,7 +102,7 @@ export const translations = {
       "desc": "منصة حجز متجاوبة بالكامل، تستخدم Context API لإدارة الحالة العامة، مع بحث ديناميكي، وشبكة عرض للعقارات، وتدفق لاختيار الغرف.",
       "tags": ["React", "Tailwind", "Context API"],
       "link": "https://asmil-asm.github.io/Booking-Hotels/",
-      "img": "image2",
+      "img": image2,
             github:'https://github.com/asmil-asm/Booking-Hotels.git'
 
     },
@@ -111,7 +111,7 @@ export const translations = {
       "desc": "تطبيق تجارة إلكترونية متكامل يشمل إدارة سلة التسوق وقائمة الرغبات، وتصفية المنتجات، والبحث، وحفظ البيانات محلياً باستخدام localStorage عبر Context API.",
       "tags": ["React", "Tailwind", "REST API"],
       "link": "https://asmil-asm.github.io/e-commerce/",
-      "img": "image1",
+      "img": image1,
             github:'https://github.com/asmil-asm/e-commerce.git'
 
     },
@@ -120,7 +120,7 @@ export const translations = {
       "desc": "موقع رسمي لجامعة حكومية يشمل بحثاً ديناميكياً، وتصفية، وإدارة الكليات والأقسام.",
       "tags": ["React", "Tailwind", "Context API"],
       "link": "https://web-university.netlify.app/",
-      "img": "image3",
+      "img": image3,
             github:'https://github.com/asmil-asm/University-website.git'
 
     },
@@ -129,7 +129,7 @@ export const translations = {
       "desc": "لوحة تحكم إدارية تدعم عمليات الإضافة والتعديل والحذف (CRUD)، وجداول تفاعلية، وترتيب وتصفح صفحات، ونماذج مع التحقق من الصحة، ورسوم بيانية لحظية.",
       "tags": ["React", "Tailwind", "Recharts", "React Hook Form"],
       "link": "https://dashboard2-university.netlify.app/",
-      "img": "image4",
+      "img": image4,
          github:'https://github.com/asmil-asm/Dashboard-University.git'
 
 
