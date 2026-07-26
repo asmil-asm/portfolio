@@ -9,7 +9,7 @@ export default function Hero() {
 
   return (
     <section id="home" className="relative pt-32 pb-20 px-6">
-      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+      <div className="max-w-6xl mx-auto flex max-md:flex-col-reverse gap-12 items-center justify-between">
         <motion.div
           initial={{ opacity: 0, x: -40 }}
           animate={{ opacity: 1, x: 0 }}
