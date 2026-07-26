@@ -5,7 +5,7 @@ import image3 from "./assets/website-university.png";
 import image4 from "./assets/Dashboard.png";
 export const translations = {
   en: {
-    nav: { home: 'Home', about: 'About', skills: 'Skills', projects: 'Projects', contact: 'Contact' },
+    nav: { home: 'Home', about: 'About', skills: 'Skills', projects: 'Projects', contact: 'Contact', cv: 'Download CV' },
     hero: {
       greeting: "Hi, I'm",
       name: 'Asmail Shaheen',
@@ -75,7 +75,7 @@ export const translations = {
     footer: 'Built with React, Tailwind & Framer Motion.',
   },
   ar: {
-    nav: { home: 'الرئيسية', about: 'نبذة', skills: 'المهارات', projects: 'المشاريع', contact: 'تواصل' },
+    nav: { home: 'الرئيسية', about: 'نبذة', skills: 'المهارات', projects: 'المشاريع', contact: 'تواصل', cv: 'تحميل السيرة الذاتية' },
     hero: {
       greeting: 'مرحبًا، أنا',
       name: 'اسماعيل شاهين',
