@@ -1,6 +1,6 @@
 import {useState} from 'react';
 import image1 from "../assets/intership.png";
-import image2 from "../assets/tot.png";
+import image2 from "../assets/TOT.png";
 
 const EducationAndCertificates = () => {
   const [selectedImage, setSelectedImage] = useState(null);
