@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import { FiGithub, FiLinkedin, FiArrowDown } from 'react-icons/fi';
 import { useLang } from '../context/LangContext.jsx';
-import avatar from '../assets/avatar.jpg';
 import image from '../assets/person.jpg'
 
 export default function Hero() {

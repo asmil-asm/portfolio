@@ -1,5 +1,4 @@
 // Translations for the portfolio (Arabic & English)
-import image1 from "./assets/E-commerce.png";
 import image2 from "./assets/hotels.png";
 import image3 from "./assets/website-university.png";
 import image4 from "./assets/Dashboard.png";
@@ -28,36 +27,29 @@ export const translations = {
       items: [
  { 
       name: 'Hotel Booking Interface', 
-      desc: 'Fully responsive booking platform with Context API for global state, dynamic search, property grid, and room selection flow.', 
-      tags: ['React', 'Tailwind', 'Context API'],
-      link: 'https://asmil-asm.github.io/Booking-Hotels/',
+      desc: 'Fully responsive booking platform with Zustand for global state, dynamic search, property grid, and room selection flow.', 
+      "tags": ["React", "Tailwindcss", "Zustand"],
+      link: 'https://hotelify-1zwx.onrender.com/',
       img: image2,
-      github:'https://github.com/asmil-asm/Booking-Hotels.git'
+      github:'https://github.com/asmil-asm/hotelify.git'
     },     
-   { 
-      name: 'E-Commerce Platform', 
-      desc: 'Full-featured e-commerce app with cart/wishlist management, product filtering, search, and localStorage persistence via Context API.', 
-      tags: ['React', 'Tailwind', 'REST API'],
-      link: 'https://asmil-asm.github.io/e-commerce/',
-      img: image1,
-      github:'https://github.com/asmil-asm/e-commerce.git'
-    },
+  
 { 
       name: 'University Website', 
       desc: 'Public university website with dynamic search, filtering, and college/department management.', 
-      tags: ['React', 'Tailwind', 'Context API'],
-      link: 'https://web-university.netlify.app/',
+      "tags": ["React", "Tailwindcss", "RESTful API","zustand","Tanstack Query"],
+      link: 'https://future-private-university.onrender.com/',
       img: image3,
-      github:'https://github.com/asmil-asm/University-website.git'
+      github:'https://github.com/asmil-asm/Future-Private-University.git'
 
     },
      { 
       name: 'University Admin Dashboard', 
       desc: 'Admin dashboard with full CRUD operations, interactive tables, sorting/pagination, forms with validation, and real-time charts.', 
-      tags: ['React', 'Tailwind', 'Recharts', 'React Hook Form'],
-      link: 'https://dashboard2-university.netlify.app/',
+      "tags": ["React", "Tailwind", "Recharts", "Tanstack Query","zustand","RESTful API"],
+      link: 'https://university-management-admin-dashboard.onrender.com/',
       img: image4 ,
-      github:'https://github.com/asmil-asm/Dashboard-University.git'
+      github:'https://github.com/asmil-asm/University-Management-System-Admin-Dashboard.git'
     },
         ],
     },
@@ -99,38 +91,29 @@ export const translations = {
   "items": [
     {
       "name": "واجهة حجز الفنادق",
-      "desc": "منصة حجز متجاوبة بالكامل، تستخدم Context API لإدارة الحالة العامة، مع بحث ديناميكي، وشبكة عرض للعقارات، وتدفق لاختيار الغرف.",
-      "tags": ["React", "Tailwind", "Context API"],
-      "link": "https://asmil-asm.github.io/Booking-Hotels/",
+      "desc": "منصة حجز متجاوبة بالكامل، تستخدم Zustand لإدارة الحالة العامة، مع بحث ديناميكي، وشبكة عرض للعقارات، وتدفق لاختيار الغرف.",
+      "tags": ["React", "Tailwindcss", "Zustand"],
+      "link": "https://github.com/asmil-asm/hotelify.git",
       "img": image2,
-            github:'https://github.com/asmil-asm/Booking-Hotels.git'
-
-    },
-    {
-      "name": "منصة التجارة الإلكترونية",
-      "desc": "تطبيق تجارة إلكترونية متكامل يشمل إدارة سلة التسوق وقائمة الرغبات، وتصفية المنتجات، والبحث، وحفظ البيانات محلياً باستخدام localStorage عبر Context API.",
-      "tags": ["React", "Tailwind", "REST API"],
-      "link": "https://asmil-asm.github.io/e-commerce/",
-      "img": image1,
-            github:'https://github.com/asmil-asm/e-commerce.git'
+            github:'https://hotelify-1zwx.onrender.com/'
 
     },
     {
       "name": "موقع الجامعة",
-      "desc": "موقع رسمي لجامعة حكومية يشمل بحثاً ديناميكياً، وتصفية، وإدارة الكليات والأقسام.",
-      "tags": ["React", "Tailwind", "Context API"],
-      "link": "https://web-university.netlify.app/",
+      "desc": "موقع رسمي لجامعة  يشمل بحثاً ديناميكياً، وتصفية، وإدارة الكليات والأقسام.",
+      "tags": ["React", "Tailwindcss", "RESTful API","zustand","Tanstack Query"],
+      "link": "https://future-private-university.onrender.com/",
       "img": image3,
-            github:'https://github.com/asmil-asm/University-website.git'
+            github:'https://github.com/asmil-asm/Future-Private-University.git'
 
     },
     {
       "name": "لوحة تحكم إدارة الجامعة",
       "desc": "لوحة تحكم إدارية تدعم عمليات الإضافة والتعديل والحذف (CRUD)، وجداول تفاعلية، وترتيب وتصفح صفحات، ونماذج مع التحقق من الصحة، ورسوم بيانية لحظية.",
-      "tags": ["React", "Tailwind", "Recharts", "React Hook Form"],
-      "link": "https://dashboard2-university.netlify.app/",
+      "tags": ["React", "Tailwind", "Recharts", "Tanstack Query","zustand","RESTful API"],
+      "link": "https://university-management-admin-dashboard.onrender.com/",
       "img": image4,
-         github:'https://github.com/asmil-asm/Dashboard-University.git'
+         github:'https://github.com/asmil-asm/University-Management-System-Admin-Dashboard.git'
 
 
     }
@@ -159,7 +142,8 @@ export const skillsList = [
   { name: 'HTML5 / CSS3', level: 96 },
   { name: 'Framer Motion', level: 85 },
   {name: 'Context API', level: 95 },
-  { name: 'Redux', level: 80 },
+  { name: 'Redux-toolkit', level: 80 },
+{ name: 'Tanstack Query', level: 85 },
 { name: 'Zustand', level: 88 },
   { name: 'Git & GitHub & GitLab', level: 88 },
   { name: 'REST APIs', level: 86 },

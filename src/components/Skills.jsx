@@ -5,14 +5,13 @@ import {
   SiTypescript,
   SiTailwindcss,
   SiHtml5,
-
   SiFramer,
   SiRedux,
   SiGit,
   SiFigma,
+  SiReactquery
 } from 'react-icons/si';
 import { FaCss3 } from 'react-icons/fa';
-
 import { TbApi } from 'react-icons/tb';
 import { GiBearFace } from 'react-icons/gi';
 import { FiBox } from 'react-icons/fi';
@@ -27,7 +26,8 @@ const iconMap = {
   'HTML5 / CSS3': { icon: SiHtml5, color: '#E34F26', icon2: FaCss3, color2: '#1572B6' },
   'Framer Motion': { icon: SiFramer, color: '#0055FF' },
   'Context API': { icon: FiBox, color: '#61DAFB' },
-  Redux: { icon: SiRedux, color: '#764ABC' },
+  'Redux-toolkit': { icon: SiRedux, color: '#764ABC' },
+  'Tanstack Query': { icon:SiReactquery , color: '#06B6D4' },
   Zustand: { icon: GiBearFace, color: '#443E38' },
   'Git & GitHub & GitLab': { icon: SiGit, color: '#F05032' },
   'REST APIs': { icon: TbApi, color: '#06B6D4' },
